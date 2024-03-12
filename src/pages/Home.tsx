@@ -1,7 +1,5 @@
-// import React from 'react';
-
 const Home = () => {
-  return <div>Home page example</div>;
+  return <div className="bg-yellow-700">Home page example</div>;
 };
 
 export default Home;

@@ -9,13 +9,15 @@
 /* GLOBAL-STYLE */
 * {
   font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 /* HIDE SCROLLBAR BUT KEEP FUNCTIONALITY */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0;
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
   background: #ff0000;
-}
+} */

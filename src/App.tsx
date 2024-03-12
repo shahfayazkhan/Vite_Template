@@ -1,5 +1,14 @@
-function App() {
-  return <div>This is the vite test</div>;
-}
+//REACT-ROUTER-DOM
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes';
+//REDUX-TOOLKIT
+import { Provider } from 'react-redux';
+import { store } from './store';
 
-export default App;
+export default function App(): JSX.Element {
+  return (
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
+  );
+}
